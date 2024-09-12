@@ -64,3 +64,10 @@ This endpoint accepts employee data and returns predictions for satisfaction, pe
   "Predicted Attrition Risk": 0.40,
   "Explanation Attrition Risk": "A higher score indicates the employee is more likely to leave the company."
 }
+
+**Input Parameters**
+- last_evaluation: Employee's last evaluation score (0.0 - 1.0).
+- number_project: Number of projects assigned to the employee (1 - 10).
+- average_montly_hours: The employee's average monthly work hours (80 - 320).
+- time_spend_company: Number of years the employee has spent at the company.
+- salary: The employee's salary level: low, medium, or high.
