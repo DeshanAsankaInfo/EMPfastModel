@@ -53,3 +53,14 @@ This endpoint accepts employee data and returns predictions for satisfaction, pe
   "salary": "medium"
 }
 
+- **Response:**
+{
+  "Predicted Satisfaction": 0.75,
+  "Explanation Satisfaction": "A higher value means the employee is more satisfied with their work environment.",
+  "Predicted Performance": 0.85,
+  "Explanation Performance": "A higher score indicates stronger performance in recent evaluations.",
+  "Predicted Promotion Likelihood": 0.50,
+  "Explanation Promotion Likelihood": "A higher value suggests the employee has a better chance of being promoted.",
+  "Predicted Attrition Risk": 0.40,
+  "Explanation Attrition Risk": "A higher score indicates the employee is more likely to leave the company."
+}
