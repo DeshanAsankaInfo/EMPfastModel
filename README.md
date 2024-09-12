@@ -42,3 +42,14 @@ This is a basic endpoint to verify that the API is running.
 ```
 ### 2. Predict Employee Outcomes
 **POST** `/predict/`
+This endpoint accepts employee data and returns predictions for satisfaction, performance, promotion likelihood, and attrition risk.
+
+- **Request Body:**
+{
+  "last_evaluation": 0.8,
+  "number_project": 5,
+  "average_montly_hours": 150,
+  "time_spend_company": 3,
+  "salary": "medium"
+}
+
