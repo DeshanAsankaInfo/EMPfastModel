@@ -71,3 +71,8 @@ This endpoint accepts employee data and returns predictions for satisfaction, pe
 - average_montly_hours: The employee's average monthly work hours (80 - 320).
 - time_spend_company: Number of years the employee has spent at the company.
 - salary: The employee's salary level: low, medium, or high.
+
+
+## Medium Documentation
+**Medium Link** 
+https://medium.com/@deshanasanka.info/how-to-deploy-a-fastapi-machine-learning-application-in-heroku-9e04424cd3fc
